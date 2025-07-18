@@ -1,0 +1,37 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: rgba(14, 14, 109, 0.571);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.passwordBox{
+  width: 400px;
+  
+  background-color: blueviolet;
+  padding: 20px ;
+}
+.passwordBox input{
+  padding-left: 6px;
+}
+.passlength{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+.passlength input{
+  width: 60px;
+  height: 23px;
+  
+  padding: 10px 0px;
+}
+.btn{
+  width: 100%;
+  padding: 10px 0px;
+}
